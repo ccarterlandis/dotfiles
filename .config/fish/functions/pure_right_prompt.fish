@@ -1,0 +1,2 @@
+function _pure_right_prompt
+end
