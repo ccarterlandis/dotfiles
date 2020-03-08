@@ -16,7 +16,6 @@ alias ipme="ipconfig getifaddr en0"
 
 # edit configs
 alias e_vim='vim ~/.vimrc'
-alias e_fish='vim ~/.config/fish/; source ~/.config/fish/config.fish'
 alias e_tmux='vim ~/.tmux.conf.local/; source ~/.config/fish/config.fish'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
