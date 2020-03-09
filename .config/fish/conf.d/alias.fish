@@ -14,9 +14,13 @@ alias g_config='cd ~/.cfg'
 alias l='ls -larth $argv'
 alias ipme="ipconfig getifaddr en0"
 
+# reload
+alias r_fish='source ~/.config/fish/config.fish'
+alias r_tmux='tmux source-file ~/.tmux.conf'
+
 # edit configs
 alias e_vim='vim ~/.vimrc'
-alias e_tmux='vim ~/.tmux.conf.local/; source ~/.config/fish/config.fish'
+alias e_tmux='vim ~/.tmux.conf.local/; r_fish'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # omni/geni

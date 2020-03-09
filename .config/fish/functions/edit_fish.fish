@@ -7,7 +7,7 @@ function edit_fish
             case conf
                 set sublocation fish/conf.d
             case base
-                set sublication fish/
+                set sublocation fish/
             case '*'
                 echo Option $argv[1] not understood
         end

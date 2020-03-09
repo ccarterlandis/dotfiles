@@ -3,6 +3,7 @@ if not set -q fish_initialized
     # Abbreviations
     # Git
     # staging
+    abbr ga 'git add'
     abbr gaa 'git add -A'
     abbr gcs 'git commit -s'
     abbr gs 'git status'
@@ -28,6 +29,8 @@ if not set -q fish_initialized
     abbr gsl 'git stash list'
     abbr gct 'git add .; git stash; git stash drop 0'
     abbr gsk 'git add -A; git stash save --keep-index'
+
+    abbr dcd 'docker compose down --remove-orphans'
 
     set -U fish_initialized
 end

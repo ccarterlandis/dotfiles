@@ -141,6 +141,7 @@
 #### Special Keys ####
 1yper slash::code|hyphen
 2yper slash::code|equal_sign
+3yper slash::code|grave_accent_and_tilde,lshift
 
 1yper spacebar::code|hyphen,lshift
 
