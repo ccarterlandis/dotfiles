@@ -102,7 +102,7 @@
 3yper semicolon::code|semicolon,lcmd,lopt,lctrl
 
 # tmux prefix key remap
-2yper r::code|b,lctrl
+1yper backslash::code|b,lctrl
 
 
 

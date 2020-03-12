@@ -1007,10 +1007,9 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "backslash",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_command",
                                             "right_command",
                                             "right_shift",
                                             "right_option",

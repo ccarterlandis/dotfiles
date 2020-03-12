@@ -30,7 +30,5 @@ if not set -q fish_initialized
     abbr gct 'git add .; git stash; git stash drop 0'
     abbr gsk 'git add -A; git stash save --keep-index'
 
-    abbr dcd 'docker compose down --remove-orphans'
-
     set -U fish_initialized
 end

@@ -1,18 +1,20 @@
 
 # goto
 alias home='cd ~'
-alias doc='cd ~/Documents'
-alias projects='cd ~/Projects'
-alias work='cd ~/Projects/Work/'
-alias school='cd ~/School/_SS20/'
-alias topics='cd ~/School/_SS20/CS4080/'
-alias cloud='cd ~/School/_SS20/Cloud/Labs/'
+alias desktop='cd ~/desktop'
+alias doc='cd ~/documents'
+alias projects='cd ~/projects'
+alias work='cd ~/projects/work/'
+alias school='cd ~/school/_ss20/'
+alias topics='cd ~/school/_ss20/cs4080/'
+alias cloud='cd ~/school/_ss20/cloud/labs/'
 alias g_fish='cd ~/.config/fish/'
 alias g_config='cd ~/.cfg'
 
 # utility
 alias l='ls -larth $argv'
 alias ipme="ipconfig getifaddr en0"
+alias dcd='docker-compose down --remove-orphans'
 
 # reload
 alias r_fish='source ~/.config/fish/config.fish'

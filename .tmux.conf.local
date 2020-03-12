@@ -243,17 +243,16 @@ set -g mouse on
 
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual
-#set -g status-keys vi
-#set -g mode-keys vi
+set -g status-keys vi
+set -g mode-keys vi
 
 set -g status-justify centre           # center window list for clarity
 
 # move status line to top
 set -g status-position top
 
-# set my prefix
-# set -g prefix C-b
-# bind-key  send-prefix
-# unbind C-b
+bind-key -T copy-mode-vi 'v' send -X begin-selection
+bind-key -T copy-mode-vi 'y' send -X copy-selection-and-cancel
 
 set-option -g default-command "which reattach-to-user-namespace > /dev/null && reattach-to-user-namespace -l $SHELL || $SHELL"
+
