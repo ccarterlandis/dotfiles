@@ -11,7 +11,12 @@ export pure_symbol_prompt="∫"
 # Because macOS doesn't like Python multithreading
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
-set PATH $PATH (go env GOBIN)
+
+if which go > /dev/null 2>&1
+    set PATH $PATH (go env GOBIN)
+end
 
 # Java
-export JAVA_HOME=(/usr/libexec/java_home)
+if test (uname) = "Darwin"
+    export JAVA_HOME=(/usr/libexec/java_home)
+end
