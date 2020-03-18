@@ -1,6 +1,6 @@
 
 # Editor
-export EDITOR='subl -w'
+export EDITOR='vim'
 
 # Docker
 export DOCKER_BUILDKIT=1
