@@ -4,7 +4,7 @@ function _pure_prompt_symbol \
 
     set --local prompt_symbol (_pure_get_prompt_symbol)
     set --local symbol_color_success (_pure_set_color $pure_color_success)
-    set --local symbol_color_error (_pure_set_color $pure_color_error)
+    set --local symbol_color_error (_pure_set_color $pure_color_danger)
     set --local command_succeed 0
 
     set --local symbol_color $symbol_color_success # default pure symbol color
