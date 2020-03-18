@@ -24,7 +24,7 @@ alias r_tmux='tmux source-file ~/.tmux.conf'
 # edit configs
 alias e_vim='vim ~/.vimrc'
 alias e_tmux='vim ~/.tmux.conf.local/; r_fish'
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # omni/geni
 alias omni='/Applications/omniTools-2.10/omni.app/Contents/MacOS/omni'
