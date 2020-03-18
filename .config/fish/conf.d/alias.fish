@@ -15,6 +15,7 @@ alias g_config='cd ~/.cfg'
 alias l='ls -larth $argv'
 alias ipme="ipconfig getifaddr en0"
 alias dcd='docker-compose down --remove-orphans'
+alias karabiner_paths='$HOME/.config/karabiner/karabiner.json $HOME/Projects/Personal/HyperGenerator/mappings.txt'
 
 # reload
 alias r_fish='source ~/.config/fish/config.fish'

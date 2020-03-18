@@ -1,5 +1,5 @@
 function edit_fish
-    set config_home $HOME/.config/
+    set config_home "$HOME/.config/"
     if [ (count $argv) -eq 2 ]
         switch $argv[1]
             case function
@@ -17,5 +17,6 @@ function edit_fish
 
 
     vim $config_home/$sublocation/$argv[2].fish
-    source ~/.config/fish/config.fish
+    source $HOME/.config/fish/config.fish
+    echo "Config reloaded"
 end

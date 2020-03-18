@@ -155,6 +155,9 @@
 1yper n::code|left_arrow
 1yper m::code|right_arrow
 
+3yper h::code|left_arrow
+3yper l::code|right_arrow
+
 # line
 1yper semicolon::code|left_arrow,lcmd
 1yper quote::code|right_arrow,lcmd
