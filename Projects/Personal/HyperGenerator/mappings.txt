@@ -80,8 +80,11 @@
 1yper z::code|d,lctrl
 1yper c::code|c,lctrl
 
-# Bartender
+# Bartender - search menu bar
 1yper period::code|c,lcmd,lctrl
+
+# Bartender - show hidden items
+2yper period::code|f4
 
 # Rerun last shell command
 2yper g::code|p,lctrl,lopt
