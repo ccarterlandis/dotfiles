@@ -6,6 +6,9 @@
 # to install fisher 
 # curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
+# user creation command on Ubuntu 
+# useradd -d /home/carter -s /usr/bin/fish -m carter
+
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
