@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# to install fish on Ubuntu
+# sudo apt-add-repository ppa:fish-shell/release-3; sudo apt-get update; sudo apt-get install fish
+
+# to install fisher 
+# curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+
 function config {
    /usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME $@
 }
