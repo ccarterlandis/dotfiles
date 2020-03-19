@@ -29,3 +29,6 @@ fi;
 config checkout
 
 config config status.showUntrackedFiles no
+
+# install fish plugins
+fisher 
