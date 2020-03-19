@@ -1,5 +1,8 @@
+.dotfiles/
 .dotfiles
 fish_variables
-secrets.fish
+*secrets.fish
+*_pure_prompt*
+*pure.fish
 
-undodir
+*undodir
