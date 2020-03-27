@@ -17,6 +17,9 @@ alias ipme="ipconfig getifaddr en0"
 alias dcd='docker-compose down --remove-orphans'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# augur quickload
+alias augur_go='augur run --disable-housekeeper > /dev/null 2>&1 &'
+
 # reload
 alias r_fish='source $HOME/.config/fish/config.fish'
 alias r_tmux='tmux source-file $HOME/.tmux.conf'
