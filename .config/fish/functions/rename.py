@@ -24,7 +24,7 @@ if len(args) > 1 or len(args) <= 0:
     sys.exit(2)
 
 for opt, arg in opts:
-    if opt is '-t':
+    if opt == '-t':
         target = arg
         if target not in ('dirs', 'files', 'all'):
             print("Unrecognized target.")

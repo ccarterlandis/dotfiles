@@ -17,6 +17,8 @@ alias ipme="ipconfig getifaddr en0"
 alias dcd='docker-compose down --remove-orphans'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+alias b='buku --suggest'
+
 # augur quickload
 alias augur_go='augur run --disable-housekeeper > /dev/null 2>&1 &'
 
@@ -27,6 +29,9 @@ alias r_tmux='tmux source-file $HOME/.tmux.conf'
 # edit configs
 alias e_vim='vim $HOME/.vimrc'
 alias e_tmux='vim $HOME/.tmux.conf.local/'
+
+# python
+alias python='python3 $argv'
 
 # omni/geni
 alias omni='/Applications/omniTools-2.10/omni.app/Contents/MacOS/omni'

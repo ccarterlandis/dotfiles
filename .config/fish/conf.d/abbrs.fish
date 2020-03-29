@@ -20,6 +20,7 @@ abbr gcb 'git checkout -b'
 abbr gbl 'git blame -w'
 abbr glp 'git log --graph --pretty=format:\'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\' --abbrev-commit'
 abbr gls 'git log --abbrev-commit --decorate -p -3'
+abbr glo 'git log --pretty=format:\'%h\' -n 1'
 
 # stash
 abbr gst 'git stash'
