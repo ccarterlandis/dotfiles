@@ -5,8 +5,6 @@
 [core]
 	autocrlf = input
 	editor = "vim"
-[credential]
-	helper = osxkeychain
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
