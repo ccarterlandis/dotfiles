@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 
 from os import walk, rename
-import sys, getopt
+import sys, getopt, re
 
 files = []
 directories = []
@@ -37,13 +37,13 @@ target = args[0]
 
 if target == 'dirs':
     for directory in directories:
-        rename(directory, directory.lower())
+        rename(directory, re.sub(" ", "_", directory.lower()))
 elif target == 'files':
     for file in files:
-        rename(file, file.lower())
+        rename(file, re.sub(" ", "_", file.lower()))
 elif target == 'both':
     for path in files + directories:
-        rename(path, path.lower())
+        rename(path, re.sub(" ", "_", path.lower()))
 
 
 
