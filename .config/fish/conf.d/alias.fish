@@ -17,6 +17,8 @@ alias ipme="ipconfig getifaddr en0"
 alias dcd='docker-compose down --remove-orphans'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+alias recipes='cd $HOME/documents/recipes'
+
 alias b='buku --suggest'
 
 # augur quickload
