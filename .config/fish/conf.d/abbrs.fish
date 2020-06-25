@@ -1,4 +1,5 @@
 # Abbreviations
+
 # Git
 # staging
 abbr ga 'git add'
@@ -28,7 +29,3 @@ abbr gsp 'git stash pop'
 abbr gsl 'git stash list'
 abbr gct 'git add .; git stash; git stash drop 0'
 abbr gsk 'git add -A; git stash save --keep-index'
-
-# config paths
-abbr karabiner_paths '$HOME/.config/karabiner/karabiner.json $HOME/Projects/Personal/HyperGenerator/mappings.txt'
-
