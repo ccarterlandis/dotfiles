@@ -1,5 +1,7 @@
 #!/usr/bin/local/fish
 
+export COMPUTER_NAME='beastmode'
+
 # Editor
 export EDITOR='vim'
 

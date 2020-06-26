@@ -17,7 +17,7 @@ function e_fish
 
 
     vim $config_home/$sublocation/$argv[2].fish
-    source $HOME/.config/fish/config.fish
+    source $config_home/fish/config.fish
     echo "Config reloaded"
 end
 

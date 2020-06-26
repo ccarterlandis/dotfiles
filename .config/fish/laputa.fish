@@ -1,5 +1,7 @@
 #!/usr/bin/local/fish
 
+export COMPUTER_NAME='laputa'
+
 alias desktop='cd $HOME/desktop'
 alias doc='cd $HOME/documents'
 alias projects='cd $HOME/projects'
