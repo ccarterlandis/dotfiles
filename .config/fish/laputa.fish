@@ -1,7 +1,6 @@
 #!/usr/bin/local/fish
 
 export COMPUTER_NAME='laputa'
-export EDITOR='subl -w'
 export JAVA_HOME=(/usr/libexec/java_home)
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 

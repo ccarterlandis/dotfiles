@@ -3,7 +3,7 @@
 export COMPUTER_NAME='beastmode'
 
 # Editor
-export EDITOR='vim'
+export EDITOR=(which vim)
 
 set PATH $PATH /usr/local/go/bin
 
