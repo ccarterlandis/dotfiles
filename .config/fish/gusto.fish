@@ -5,3 +5,5 @@ export COMPUTER_NAME='mordechai'
 export EDITOR='subl -w -n'
 
 set PATH $PATH (go env GOPATH)/bin/
+
+source $_FISH_HOME/mac.fish

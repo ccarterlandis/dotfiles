@@ -1,4 +1,4 @@
 function g_au
-    cd $HOME/projects/work/augur;
-    source $HOME/.virtualenvs/augur_env/bin/activate.fish
+    cd $AUGUR_HOME;
+    venv_activate augur_env
 end

@@ -1,0 +1,2 @@
+
+export AUGUR_HOME=$WORKSPACE_DIR/augur/
