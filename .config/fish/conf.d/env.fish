@@ -1,4 +1,6 @@
 
+export EDITOR=(which vim)
+
 export _FISH_HOME="$HOME/.config/fish/"
 
 # Docker

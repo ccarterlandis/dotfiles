@@ -29,3 +29,5 @@ abbr gsp 'git stash pop'
 abbr gsl 'git stash list'
 abbr gct 'git add .; git stash; git stash drop 0'
 abbr gsk 'git add -A; git stash save --keep-index'
+
+abbr dc 'docker-compose'
