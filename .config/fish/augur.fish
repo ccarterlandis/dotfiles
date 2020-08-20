@@ -1,2 +1,1 @@
-
-export AUGUR_HOME=$WORKSPACE_DIR/augur/
+export AUGUR_HOME=$WORKSPACE_HOME/chaoss/augur/

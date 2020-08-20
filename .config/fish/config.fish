@@ -1,4 +1,4 @@
-set fish_greeting 
+set fish_greeting hello Carter!
 
 if test (hostname) = "laputa"
     source $_FISH_HOME/laputa.fish

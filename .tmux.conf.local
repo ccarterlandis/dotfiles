@@ -179,12 +179,12 @@ tmux_conf_theme_right_separator_sub='\uE0B3'  #   PowerlineSymbols.otf font, see
 #     - #{uptime_s}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_status_left=' ❐ #{circled_session_name} '
-tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} | #{username}#{root} | #{hostname_ssh} '
+tmux_conf_theme_status_left=' ❐ #{circled_session_name} | #{loadavg}'
+tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} | #{username}#{root} | #{hostname} '
 
 # status left style
 tmux_conf_theme_status_left_fg='#000000,#e4e4e4,#e4e4e4'  # black, white , white
-tmux_conf_theme_status_left_bg='#eb9d47,#ff00af,#3f7aef'  # yellow, pink, white blue
+tmux_conf_theme_status_left_bg='#eb9d47,#299438,#3f7aef'  # yellow, green, white blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
@@ -205,13 +205,13 @@ tmux_conf_theme_prefix_bg='none'
 tmux_conf_theme_prefix_attr='none'
 
 # root indicator
-tmux_conf_theme_root='!'
+tmux_conf_theme_root='!!!'
 tmux_conf_theme_root_fg='none'
 tmux_conf_theme_root_bg='none'
 tmux_conf_theme_root_attr='bold,blink'
 
 # synchronized indicator
-tmux_conf_theme_synchronized='🔒'     # U+1F512
+tmux_conf_theme_synchronized=' [synced] '     # U+1F512
 tmux_conf_theme_synchronized_fg='none'
 tmux_conf_theme_synchronized_bg='none'
 tmux_conf_theme_synchronized_attr='none'

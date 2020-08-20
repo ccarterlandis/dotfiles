@@ -6,6 +6,5 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
 alias recipes='cd $HOME/documents/recipes'
 
-echo $_FISH_HOME
 source $_FISH_HOME/mac.fish
 source $_FISH_HOME/augur.fish
