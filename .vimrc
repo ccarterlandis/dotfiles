@@ -89,7 +89,7 @@ if has('statusline')
       set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
   endif
 
-colorscheme onedark
+"colorscheme onedark
 set t_Co=256
 set guioptions-=m " Removes top menubar
 set guioptions-=T " Removes top toolbar
