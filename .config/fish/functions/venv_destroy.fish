@@ -1,6 +1,6 @@
 function venv_destroy
     if test -d $WORKSPACE_HOME/virtualenvs/$argv/
-        echo "destorying virtualenv..."
+        echo "destroying virtualenv..."
         rm -rf $WORKSPACE_HOME/virtualenvs/$argv/
         echo "done!"
     else

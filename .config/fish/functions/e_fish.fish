@@ -17,7 +17,7 @@ function e_fish
     end
 
 
-    $EDITOR $config_home/$sublocation/$argv[2].fish
+    subl -n -w $config_home/$sublocation/$argv[2].fish
     source $config_home/fish/config.fish
     echo "Config reloaded"
 end

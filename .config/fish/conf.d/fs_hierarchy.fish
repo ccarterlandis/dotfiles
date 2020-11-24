@@ -12,5 +12,3 @@ export CCL_CONFIG_HOME="$HOME/.config/ccarterlandis"
 create_dir $WORKSPACE_HOME
 create_dir $WORKSPACE_HOME/virtualenvs/
 create_dir $CCL_CONFIG_HOME/
-create_dir $CCL_CONFIG_HOME/ergodox/
-create_dir $CCL_CONFIG_HOME/.local/
