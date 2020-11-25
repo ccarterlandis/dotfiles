@@ -2,13 +2,19 @@
 function create_dir
     if ! test -d $argv
         mkdir -p $argv
-        echo $argv did not exist, created
+        echo Directory $argv created
     end
 end
 
-export WORKSPACE_HOME="$HOME/workspace"
-export CCL_CONFIG_HOME="$HOME/.config/ccarterlandis"
+create_dir "$HOME/.config/"
 
-create_dir $WORKSPACE_HOME
-create_dir $WORKSPACE_HOME/virtualenvs/
-create_dir $CCL_CONFIG_HOME/
+export CCL_CONFIG_HOME="$HOME/.config/ccarterlandis/"
+create_dir $CCL_CONFIG_HOME
+
+export WORKSPACE="$HOME/workspace"
+export VENV_HOME="$WORKSPACE/virtualenvs"
+export SCRATCH_DIR="$WORKSPACE/scratch"
+
+create_dir $WORKSPACE
+create_dir $VENV_HOME
+create_dir $SCRATCH_DIR

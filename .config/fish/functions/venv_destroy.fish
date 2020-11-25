@@ -1,7 +1,7 @@
 function venv_destroy
-    if test -d $WORKSPACE_HOME/virtualenvs/$argv/
+    if test -d $VENV_HOME/$argv/
         echo "destroying virtualenv..."
-        rm -rf $WORKSPACE_HOME/virtualenvs/$argv/
+        rm -rf $VENV_HOME/$argv/
         echo "done!"
     else
         echo "virtualenv with that name not found"

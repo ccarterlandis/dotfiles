@@ -1,6 +1,6 @@
 function subl_proj
-    if test $WORKSPACE_HOME/subl_projects/$argv.sublime-project
-        subl $WORKSPACE_HOME/subl_projects/$argv.sublime-project
+    if test $WORKSPACE/subl_projects/$argv.sublime-project
+        subl $WORKSPACE/subl_projects/$argv.sublime-project
     else
         echo Project $argv not found.
     end
