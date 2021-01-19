@@ -1,11 +1,6 @@
 
 # goto
 alias home='cd $HOME'
-alias school='cd $HOME/school/_FS20/'
-alias hpc='cd $HOME/school/_FS20/hpc_code'
-alias networks='cd $HOME/school/_FS20/networks'
-alias 4050='cd $HOME/school/_FS20/4050'
-alias capstone='cd $HOME/school/_FS20/capstone'
 
 # utility
 alias c='clear'
