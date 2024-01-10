@@ -1,6 +1,6 @@
 [user]
 	name = Carter Landis
-	email = c@carterlandis.com
+	email = carter.landis@gusto.com
 	signingkey = B7F49BACFC470A0E
 [core]
 	autocrlf = input
@@ -12,3 +12,16 @@
 	smudge = git-lfs smudge -- %f
 [log]
 	abbrevCommit = true
+[push]
+	default = current
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+	templateDir = /Users/carter.landis/.git-template
+[advice]
+	addEmptyPathspec = false
+[credential]
+	helper = osxkeychain
+[maintenance]
+	repo = /Users/carter.landis/workspace/airflow-dags

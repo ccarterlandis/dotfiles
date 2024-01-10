@@ -1,6 +1,6 @@
+#!/usr/bin/local/fish
 
-set EDITOR (which subl) -n
-set EDITOR_WAIT (which subl) -n -w
+set EDITOR subl -n -w
 
 alias desktop='cd $HOME/Desktop'
 alias doc='cd $HOME/Documents'

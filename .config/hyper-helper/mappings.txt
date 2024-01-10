@@ -5,25 +5,21 @@
 1yper e::shell > open -a 'Finder'
 2yper e::shell > open -a 'Preview'
 
-1yper y::shell > open -a 'ProtonMail'
-2yper y::shell > open -a 'Microsoft Outlook'
+1yper y::shell > open -a 'Mail'
+2yper y::shell > open -a 'Calendar'
 
 1yper u::shell > open -a 'Slack'
-2yper u::shell > open -a 'Trello'
+2yper u::shell > open -a ''
 
 1yper i::shell > open -a 'Todoist'
-2yper i::shell > open -a 'Calendar'
+2yper i::shell > open -a 'Zoom'
 
 1yper o::shell > open -a 'Spotify'
 2yper o::shell > open -a 'Simplenote'
 
-1yper p::shell > open -a 'Navicat for PostgreSQL'
-2yper p::shell > open -a 'Discord'
-
 1yper f::shell > open -a 'Firefox'
 
 1yper g::shell > open -a 'Sublime Text'
-2yper g::shell > open -a 'Visual Studio Code'
 
 
 #### Window Control ####
@@ -192,6 +188,3 @@
 1yper 2::code > 2,lctrl
 2yper 2::code > 2,lshift,lctrl
 
-#### IDE Controls ####
-3yper j::code > r,lctrl
-3yper k::code > d,lctrl
